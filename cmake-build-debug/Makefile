@@ -150,32 +150,59 @@ Barrier.cpp.s:
 	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/Barrier.cpp.s
 .PHONY : Barrier.cpp.s
 
-MapReduceFramework.o: MapReduceFramework.cpp.o
+Framework.o: Framework.cpp.o
 
-.PHONY : MapReduceFramework.o
+.PHONY : Framework.o
 
 # target to build an object file
-MapReduceFramework.cpp.o:
-	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o
-.PHONY : MapReduceFramework.cpp.o
+Framework.cpp.o:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/Framework.cpp.o
+.PHONY : Framework.cpp.o
 
-MapReduceFramework.i: MapReduceFramework.cpp.i
+Framework.i: Framework.cpp.i
 
-.PHONY : MapReduceFramework.i
+.PHONY : Framework.i
 
 # target to preprocess a source file
-MapReduceFramework.cpp.i:
-	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/MapReduceFramework.cpp.i
-.PHONY : MapReduceFramework.cpp.i
+Framework.cpp.i:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/Framework.cpp.i
+.PHONY : Framework.cpp.i
 
-MapReduceFramework.s: MapReduceFramework.cpp.s
+Framework.s: Framework.cpp.s
 
-.PHONY : MapReduceFramework.s
+.PHONY : Framework.s
 
 # target to generate assembly for a file
-MapReduceFramework.cpp.s:
-	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/MapReduceFramework.cpp.s
-.PHONY : MapReduceFramework.cpp.s
+Framework.cpp.s:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/Framework.cpp.s
+.PHONY : Framework.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/New_folder.dir/build.make CMakeFiles/New_folder.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -189,9 +216,12 @@ help:
 	@echo "... Barrier.o"
 	@echo "... Barrier.i"
 	@echo "... Barrier.s"
-	@echo "... MapReduceFramework.o"
-	@echo "... MapReduceFramework.i"
-	@echo "... MapReduceFramework.s"
+	@echo "... Framework.o"
+	@echo "... Framework.i"
+	@echo "... Framework.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

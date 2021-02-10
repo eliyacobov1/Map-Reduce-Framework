@@ -9,6 +9,6 @@ add_executable(New_folder
         Barrier.cpp
         Barrier.h
         Makefile
-        MapReduceClient.h
-        MapReduceFramework.cpp
-        MapReduceFramework.h)
+        Client.h
+        Framework.cpp
+        Framework.h main.cpp)

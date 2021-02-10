@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/New_folder.dir/Barrier.cpp.o"
-  "CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o"
+  "CMakeFiles/New_folder.dir/Framework.cpp.o"
+  "CMakeFiles/New_folder.dir/main.cpp.o"
   "New_folder.pdb"
   "New_folder.exe"
   "libNew_folder.dll.a"

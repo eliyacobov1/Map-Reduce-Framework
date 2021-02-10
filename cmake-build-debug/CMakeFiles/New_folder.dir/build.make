@@ -70,32 +70,47 @@ CMakeFiles/New_folder.dir/Barrier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/New_folder.dir/Barrier.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.cpp" -o CMakeFiles/New_folder.dir/Barrier.cpp.s
 
-CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o: CMakeFiles/New_folder.dir/flags.make
-CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o: ../MapReduceFramework.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o -c "/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp"
+CMakeFiles/New_folder.dir/Framework.cpp.o: CMakeFiles/New_folder.dir/flags.make
+CMakeFiles/New_folder.dir/Framework.cpp.o: ../Framework.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/New_folder.dir/Framework.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/New_folder.dir/Framework.cpp.o -c "/cygdrive/c/Users/Eli/Desktop/New folder/Framework.cpp"
 
-CMakeFiles/New_folder.dir/MapReduceFramework.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/New_folder.dir/MapReduceFramework.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp" > CMakeFiles/New_folder.dir/MapReduceFramework.cpp.i
+CMakeFiles/New_folder.dir/Framework.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/New_folder.dir/Framework.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Eli/Desktop/New folder/Framework.cpp" > CMakeFiles/New_folder.dir/Framework.cpp.i
 
-CMakeFiles/New_folder.dir/MapReduceFramework.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/New_folder.dir/MapReduceFramework.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp" -o CMakeFiles/New_folder.dir/MapReduceFramework.cpp.s
+CMakeFiles/New_folder.dir/Framework.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/New_folder.dir/Framework.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Eli/Desktop/New folder/Framework.cpp" -o CMakeFiles/New_folder.dir/Framework.cpp.s
+
+CMakeFiles/New_folder.dir/main.cpp.o: CMakeFiles/New_folder.dir/flags.make
+CMakeFiles/New_folder.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/New_folder.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/New_folder.dir/main.cpp.o -c "/cygdrive/c/Users/Eli/Desktop/New folder/main.cpp"
+
+CMakeFiles/New_folder.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/New_folder.dir/main.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Eli/Desktop/New folder/main.cpp" > CMakeFiles/New_folder.dir/main.cpp.i
+
+CMakeFiles/New_folder.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/New_folder.dir/main.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Eli/Desktop/New folder/main.cpp" -o CMakeFiles/New_folder.dir/main.cpp.s
 
 # Object files for target New_folder
 New_folder_OBJECTS = \
 "CMakeFiles/New_folder.dir/Barrier.cpp.o" \
-"CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o"
+"CMakeFiles/New_folder.dir/Framework.cpp.o" \
+"CMakeFiles/New_folder.dir/main.cpp.o"
 
 # External object files for target New_folder
 New_folder_EXTERNAL_OBJECTS =
 
 New_folder.exe: CMakeFiles/New_folder.dir/Barrier.cpp.o
-New_folder.exe: CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o
+New_folder.exe: CMakeFiles/New_folder.dir/Framework.cpp.o
+New_folder.exe: CMakeFiles/New_folder.dir/main.cpp.o
 New_folder.exe: CMakeFiles/New_folder.dir/build.make
 New_folder.exe: CMakeFiles/New_folder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable New_folder.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable New_folder.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/New_folder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

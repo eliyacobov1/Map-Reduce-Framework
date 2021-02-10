@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/New_folder.dir/Barrier.cpp.o CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o  -o New_folder.exe -Wl,--out-implib,libNew_folder.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/New_folder.dir/Barrier.cpp.o CMakeFiles/New_folder.dir/Framework.cpp.o CMakeFiles/New_folder.dir/main.cpp.o  -o New_folder.exe -Wl,--out-implib,libNew_folder.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

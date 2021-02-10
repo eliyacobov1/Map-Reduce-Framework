@@ -88,16 +88,19 @@
 		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.h">
 			<Option target="New_folder"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/Client.h">
+			<Option target="New_folder"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/Framework.cpp">
+			<Option target="New_folder"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/Framework.h">
+			<Option target="New_folder"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/Makefile">
 			<Option target="New_folder"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceClient.h">
-			<Option target="New_folder"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp">
-			<Option target="New_folder"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.h">
+		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/main.cpp">
 			<Option target="New_folder"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Eli/Desktop/New folder/CMakeLists.txt">

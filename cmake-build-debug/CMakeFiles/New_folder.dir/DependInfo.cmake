@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.cpp" "/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles/New_folder.dir/Barrier.cpp.o"
-  "/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp" "/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles/New_folder.dir/MapReduceFramework.cpp.o"
+  "/cygdrive/c/Users/Eli/Desktop/New folder/Framework.cpp" "/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles/New_folder.dir/Framework.cpp.o"
+  "/cygdrive/c/Users/Eli/Desktop/New folder/main.cpp" "/cygdrive/c/Users/Eli/Desktop/New folder/cmake-build-debug/CMakeFiles/New_folder.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

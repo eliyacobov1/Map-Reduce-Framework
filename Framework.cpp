@@ -1,5 +1,5 @@
 #include <iostream>
-#include "MapReduceFramework.h"
+#include "Framework.h"
 #include "Barrier.h"
 #include "Barrier.cpp"
 #include "pthread.h"
@@ -364,18 +364,18 @@ JobHandle startMapReduceJob(const MapReduceClient& client,
                             const InputVec& inputVec, OutputVec& outputVec,
                             int multiThreadLevel)
 {
-    auto Job = new JobContext {multiThreadLevel, &client, &inputVec, &outputVec, new Barrier(multiThreadLevel),
+    auto job = new JobContext {multiThreadLevel, &client, &inputVec, &outputVec, new Barrier(multiThreadLevel),
 //                               PTHREAD_COND_INITIALIZER,
                                new IntermediateMap(), new std::vector<K2*>(), new std::atomic<unsigned int> (0),
-                               new std::atomic<unsigned int> (0),new std::atomic<unsigned int> (0),
-                               new std::atomic<unsigned int> (0),new std::atomic<unsigned int> (0),
+                               new std::atomic<unsigned int> (0), new std::atomic<unsigned int> (0),
+                               new std::atomic<unsigned int> (0), new std::atomic<unsigned int> (0),
                                new std::atomic<unsigned int> (0), nullptr, nullptr, PTHREAD_MUTEX_INITIALIZER,
                                PTHREAD_MUTEX_INITIALIZER, false}; // Create a corresponding JobContext struct object
     int retVal;
     auto pthreads = new std::vector<pthread_t>(multiThreadLevel); // pthread object repository
     auto jobThreads = new pthread_map(); // pthread context repository for this job
-    Job->jobThreads = jobThreads;
-    Job->pthreads = pthreads;
+    job->jobThreads = jobThreads;
+    job->pthreads = pthreads;
 
     for(int i = 0; i < multiThreadLevel - 1; i++)
     {
@@ -384,7 +384,7 @@ JobHandle startMapReduceJob(const MapReduceClient& client,
                                                                                   PTHREAD_MUTEX_INITIALIZER)));
 
         retVal = pthread_create(&(*pthreads)[i], NULL, &MapPhase,
-                                Job); // Create Map threads and Contexts
+                                job); // Create Map threads and Contexts
 
         if(retVal != SYSCALL_SUCCESS)
         {
@@ -397,7 +397,7 @@ JobHandle startMapReduceJob(const MapReduceClient& client,
                                                                                                  PTHREAD_MUTEX_INITIALIZER)));
 
     retVal = pthread_create((&(*pthreads)[multiThreadLevel - 1]),
-                            NULL, &ShufflePhase, Job); // Create the shuffle thread and Context
+                            NULL, &ShufflePhase, job); // Create the shuffle thread and Context
 
     if(retVal != SYSCALL_SUCCESS)
     {
@@ -405,7 +405,7 @@ JobHandle startMapReduceJob(const MapReduceClient& client,
         exit(EXIT_FAILURE);
     }
 
-    return Job;
+    return job;
 }
 
 /**
