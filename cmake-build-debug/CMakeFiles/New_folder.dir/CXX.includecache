@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.cpp
+Barrier.h
+/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.h
+cstdlib
+-
+cstdio
+-
+
+/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.h
+pthread.h
+-
+
+/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceClient.h
+vector
+-
+map
+-
+utility
+-
+
+/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.cpp
+iostream
+-
+MapReduceFramework.h
+/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.h
+Barrier.h
+/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.h
+Barrier.cpp
+/cygdrive/c/Users/Eli/Desktop/New folder/Barrier.cpp
+pthread.h
+/cygdrive/c/Users/Eli/Desktop/New folder/pthread.h
+atomic
+-
+
+/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceFramework.h
+MapReduceClient.h
+/cygdrive/c/Users/Eli/Desktop/New folder/MapReduceClient.h
+
